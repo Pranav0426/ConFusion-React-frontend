@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import { Card, CardImg, CardBody, CardText, CardTitle } from 'reactstrap';
 
 class Dishdetail extends Component {
-	constructor(props) {
-		super(props);
-	}
+	componentDidMount() {}
+	componentDidUpdate() {}
 	renderComments(comments) {
 		if (comments == null) {
 			return <div />;
