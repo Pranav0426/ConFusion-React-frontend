@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
+import { Card, CardImg, CardImgOverlay, CardTitle, CardColumns } from 'reactstrap';
 
 function RenderMenuItem({ dish, onClick }) {
 	return (
@@ -26,5 +26,4 @@ const Menu = (props) => {
 		</div>
 	);
 };
-
 export default Menu;
